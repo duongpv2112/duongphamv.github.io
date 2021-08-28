@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cakes - Template</title>
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+
+
+<body>
+    <div class="app">
+        <!-- Header -->
+        <header class="navbar">
+            <div class="navbar-container">
+                <div class="navbar-left">
+                    <div class="navbar-left__logo">
+                        <img src="./assets/img/logo.png" alt="Logo Cake" class="navbar-left__logo-img">
+                    </div>
+
+                    <div class="navbar-left__direction">
+                        <ul class="navbar-list">
+                            <li class="navbar-list__item">
+                                <a href="/" class="navbar-list__item-link">Home</a>
+                            </li>
+                            <li class="navbar-list__item">
+                                <a href="/product.html" class="navbar-list__item-link">Product</a>
+                            </li>
+                            <li class="navbar-list__item">
+                                <a href="/about.html" class="navbar-list__item-link">About</a>
+                            </li>
+                            <li class="navbar-list__item">
+                                <a class="navbar-list__item-link">Blog</a>
+                                <ul class="navbar-sublists">
+                                    <li class="navbar-sublists__item">
+                                        <a href="/blog.html" class="navbar-sublist__item-link">Blog</a>
+                                    </li>
+                                    <li class="navbar-sublists__item">
+                                        <a href="/blogdetail.html" class="navbar-sublist__item-link">Blog Details</a>
+                                    </li>
+                                    <li class="navbar-sublists__item">
+                                        <a href="/product.html" class="navbar-sublist__item-link">Element</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="navbar-list__item">
+                                <a href="/contact.html" class="navbar-list__item-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="navbar-mobile">
+                        <img src="./assets/img/logo.png" alt="Logo Cake" class="navbar-left__logo-img">
+
+                        <label for="navbar-mobile__input" class="navbar-mobile__icon">
+                            <i class="fas fa-bars" aria-hidden="true"></i>
+                        </label>
+
+                        <input type="checkbox" hidden class="navbar-mobile__input" id="navbar-mobile__input">
+
+                        <div class="navbar-mobile__overlay"></div>
+
+                        <div class="navbar-mobile__direction">
+                            <div class="navbar-mobile__direction-header">
+                                <img src="./assets/img/logo.png" alt="Logo Cake" class="navbar-left__logo-img">
+                                <label for="navbar-mobile__input" class="navbar-mobile__icon">
+                                    <i class="fa fa-times" aria-hidden="true"></i>
+                                </label>
+                            </div>
+
+                            <ul class="navbar-mobile__list">
+                                <li class="navbar-mobile__item">
+                                    <a href="/" class="navbar-mobile__item-link">
+                                        <i class="navbar-mobile__item-icon fas fa-home" aria-hidden="true"></i>
+                                        Home
+                                    </a>
+                                </li>
+                                <li class="navbar-mobile__item">
+                                    <a href="/product.html" class="navbar-mobile__item-link">
+                                        <i class="navbar-mobile__item-icon fas fa-birthday-cake"></i>
+                                        Product
+                                    </a>
+                                </li>
+                                <li class="navbar-mobile__item">
+                                    <a href="/about.html" class="navbar-mobile__item-link">
+                                        <i class="navbar-mobile__item-icon fas fa-users" aria-hidden="true"></i>
+                                        About
+                                    </a>
+                                </li>
+                                <li class="navbar-mobile__item">
+                                    <a class="navbar-mobile__item-link">
+                                        <i class="navbar-mobile__item-icon fab fa-blogger"></i>
+                                        Blog &nbsp;
+                                        <i class="fas fa-sort-down"></i>
+                                    </a>
+                                    <ul class="navbar-mobile__sublists">
+                                        <li class=navbar-mobile__subitem">
+                                            <a href="/blog.html" class="navbar-mobile__subitem-link">Blog</a>
+                                        </li>
+                                        <li class="navbar-mobile__subitem">
+                                            <a href="/blogdetail.html" class="navbar-mobile__subitem-link">Blog Details</a>
+                                        </li>
+                                        <li class="navbar-mobile__subitem">
+                                            <a href="/product.html" class="navbar-mobile__subitem-link">Element</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="navbar-mobile__item">
+                                    <a href="/contact.html" class="navbar-mobile__item-link">
+                                        <i class="navbar-mobile__item-icon fas fa-address-card" aria-hidden="true"></i>
+                                        Contact
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="navbar-right">
+                    <span class="navbar-phone">
+                        <a href="" class="navbar-phone__link">
+                            <i class="navbar-phone__icon fas fa-phone-alt"></i>
+                            +10 (56) 745 3095
+                        </a>
+                    </span>
+                    <button class="btn btn-buy">Order Online</button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Slider -->
+        <div class="slider-page">
+            <div class="slider-container">
+                <div class="slider-sologan">
+                    <div class="sologan-container">
+                        <h1 class="sologan-animation">Product</h1>
+                        <h1 class="sologan-heading">
+                            Our Products
+                        </h1>
+                    </div>
+                </div>
+                <div class="sub-slider">
+                    <img src="./assets/img/position.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- Content -->
+        <div class="content">
+
+            <!-- Most-popular -->
+            <div class="most-popular most-popular__Onepage">
+                <div class="grid wide">
+                    <div class="title-heading">
+                        <h5 class="title-h5">Most Popular</h5>
+                        <h1 class="title-h2">Our Exclusive Cakes</h1>
+                    </div>
+                    <div class="list-cakes silde-carousel">
+                        <div class="row slick-carousel-popular">
+
+                            <div class="col l-4 m-6 s-12 mt-16 mb-16">
+                                <div class="list-item">
+                                    <div class="list-item__img">
+                                        <img src="./assets/img/chocolate.png" alt="" class="">
+                                    </div>
+                                    <div class="list-item__detail">
+                                        <h3 class="list-item__detail-name">Chocolate</h3>
+                                        <p class="list-item__detail-desc">Land behold it created good saw after she'd
+                                            our set.
+                                        </p>
+                                        <a href="" class="btn btn-buy-now btn-shadow">$20 <span>|</span> Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col l-4 m-6 s-12 mt-16 mb-16">
+                                <div class="list-item">
+                                    <div class="list-item__img">
+                                        <img src="./assets/img/sweetheart.png" alt="" class="">
+                                    </div>
+                                    <div class="list-item__detail">
+                                        <h3 class="list-item__detail-name">Sweetheart</h3>
+                                        <p class="list-item__detail-desc">Land behold it created good saw after she'd
+                                            our set.
+                                        </p>
+                                        <a href="" class="btn btn-buy-now btn-shadow">$20 <span>|</span> Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col l-4 m-6 s-12 mt-16 mb-16">
+                                <div class="list-item">
+                                    <div class="list-item__img">
+                                        <img src="./assets/img/chocolate.png" alt="" class="">
+                                    </div>
+                                    <div class="list-item__detail">
+                                        <h3 class="list-item__detail-name">Chocolate</h3>
+                                        <p class="list-item__detail-desc">Land behold it created good saw after she'd
+                                            our set.
+                                        </p>
+                                        <a href="" class="btn btn-buy-now btn-shadow">$20 <span>|</span> Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col l-4 m-6 s-12 mt-16 mb-16">
+                                <div class="list-item">
+                                    <div class="list-item__img">
+                                        <img src="./assets/img/blackforest.png" alt="" class="">
+                                    </div>
+                                    <div class="list-item__detail">
+                                        <h3 class="list-item__detail-name">Blackforest</h3>
+                                        <p class="list-item__detail-desc">Land behold it created good saw after she'd
+                                            our set.
+                                        </p>
+                                        <a href="" class="btn btn-buy-now btn-shadow">$20 <span>|</span> Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col l-4 m-6 s-12 mt-16 mb-16">
+                                <div class="list-item">
+                                    <div class="list-item__img">
+                                        <img src="./assets/img/sweetheart.png" alt="" class="">
+                                    </div>
+                                    <div class="list-item__detail">
+                                        <h3 class="list-item__detail-name">Sweetheart</h3>
+                                        <p class="list-item__detail-desc">Land behold it created good saw after she'd
+                                            our set.
+                                        </p>
+                                        <a href="" class="btn btn-buy-now btn-shadow">$20 <span>|</span> Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col l-4 m-6 s-12 mt-16 mb-16">
+                                <div class="list-item">
+                                    <div class="list-item__img">
+                                        <img src="./assets/img/sweetheart.png" alt="" class="">
+                                    </div>
+                                    <div class="list-item__detail">
+                                        <h3 class="list-item__detail-name">Sweetheart</h3>
+                                        <p class="list-item__detail-desc">Land behold it created good saw after she'd
+                                            our set.
+                                        </p>
+                                        <a href="" class="btn btn-buy-now btn-shadow">$20 <span>|</span> Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col l-4 m-6 s-12 mt-16 mb-16">
+                                <div class="list-item">
+                                    <div class="list-item__img">
+                                        <img src="./assets/img/sweetheart.png" alt="" class="">
+                                    </div>
+                                    <div class="list-item__detail">
+                                        <h3 class="list-item__detail-name">Sweetheart</h3>
+                                        <p class="list-item__detail-desc">Land behold it created good saw after she'd
+                                            our set.
+                                        </p>
+                                        <a href="" class="btn btn-buy-now btn-shadow">$20 <span>|</span> Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col l-4 m-6 s-12 mt-16 mb-16">
+                                <div class="list-item">
+                                    <div class="list-item__img">
+                                        <img src="./assets/img/sweetheart.png" alt="" class="">
+                                    </div>
+                                    <div class="list-item__detail">
+                                        <h3 class="list-item__detail-name">Sweetheart</h3>
+                                        <p class="list-item__detail-desc">Land behold it created good saw after she'd
+                                            our set.
+                                        </p>
+                                        <a href="" class="btn btn-buy-now btn-shadow">$20 <span>|</span> Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col l-4 m-6 s-12 mt-16 mb-16">
+                                <div class="list-item">
+                                    <div class="list-item__img">
+                                        <img src="./assets/img/sweetheart.png" alt="" class="">
+                                    </div>
+                                    <div class="list-item__detail">
+                                        <h3 class="list-item__detail-name">Sweetheart</h3>
+                                        <p class="list-item__detail-desc">Land behold it created good saw after she'd
+                                            our set.
+                                        </p>
+                                        <a href="" class="btn btn-buy-now btn-shadow">$20 <span>|</span> Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Instagram area -->
+            <div id="instagram" class="instagram-area">
+                <div class="grid">
+                    <div class="instagram-list">
+                        <div class="row no-gutters owl-carousel">
+                            <div class="instagram-item">
+                                <div class="instagram-item__content">
+                                    <img src="./assets/img/instagram/instagram1.png" alt="" class="instagram-item__img">
+                                    <a href="" class="instagram-item__link">
+                                        <i class="instagram-item__link-icon fab fa-instagram" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="instagram-item">
+                                <div class="instagram-item__content">
+                                    <img src="./assets/img/instagram/instagram2.png" alt="" class="instagram-item__img">
+                                    <a href="" class="instagram-item__link">
+                                        <i class="instagram-item__link-icon fab fa-instagram" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="instagram-item">
+                                <div class="instagram-item__content">
+                                    <img src="./assets/img/instagram/instagram3.png" alt="" class="instagram-item__img">
+                                    <a href="" class="instagram-item__link">
+                                        <i class="instagram-item__link-icon fab fa-instagram" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="instagram-item">
+                                <div class="instagram-item__content">
+                                    <img src="./assets/img/instagram/instagram4.png" alt="" class="instagram-item__img">
+                                    <a href="" class="instagram-item__link">
+                                        <i class="instagram-item__link-icon fab fa-instagram" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="instagram-item">
+                                <div class="instagram-item__content">
+                                    <img src="./assets/img/instagram/instagram3.png" alt="" class="instagram-item__img">
+                                    <a href="" class="instagram-item__link">
+                                        <i class="instagram-item__link-icon fab fa-instagram" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="grid wide">
+                <div class="footer-top">
+                    <div class="row row-mobile">
+                        <div class="col col-mobile l-4 m-12 s-12 footer-left">
+                            <img src="./assets/img/logo-new.png" alt="" class="footer-left__img">
+                            <p class="footer-left__desc">
+                                Land behold it created good saw after she'd Our set living. Signs midst dominion
+                                creepeth
+                                morning laboris nisi ufsit aliquip.
+                            </p>
+                            <div class="footer-left__social">
+                                <span class="footer-left__social-icon ">
+                                    <i class="fab fa-twitter-square" aria-hidden="true"></i>
+                                </span>
+                                <span class="footer-left__social-icon ">
+                                    <i class="fab fa-facebook-square" aria-hidden="true"></i>
+                                </span>
+                                <span class="footer-left__social-icon ">
+                                    <i class="fab fa-linkedin" aria-hidden="true"></i>
+                                </span>
+                                <span class="footer-left__social-icon ">
+                                    <i class="fab fa-pinterest-square" aria-hidden="true"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col col-mobile l-8 m-12 s-12 footer-right">
+                            <div class="row">
+                                <div class="col l-4 m-3 s-12">
+                                    <h3 class="footer-right__heading">Quick Links</h3>
+                                    <ul class="footer-list">
+                                        <li class="footer-item">
+                                            <a href="" class="footer-item__link">Home</a>
+                                        </li>
+                                        <li class="footer-item">
+                                            <a href="" class="footer-item__link">About</a>
+                                        </li>
+                                        <li class="footer-item">
+                                            <a href="" class="footer-item__link">Services</a>
+                                        </li>
+                                        <li class="footer-item">
+                                            <a href="" class="footer-item__link">Blog</a>
+                                        </li>
+                                        <li class="footer-item">
+                                            <a href="" class="footer-item__link">Contact</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="col l-4 m-3 s-12">
+                                    <h3 class="footer-right__heading">Cakes</h3>
+                                    <ul class="footer-list">
+                                        <li class="footer-item">
+                                            <a href="" class="footer-item__link">Blackforest</a>
+                                        </li>
+                                        <li class="footer-item">
+                                            <a href="" class="footer-item__link">Bodhubon</a>
+                                        </li>
+                                        <li class="footer-item">
+                                            <a href="" class="footer-item__link">Rongdhonu</a>
+                                        </li>
+                                        <li class="footer-item">
+                                            <a href="" class="footer-item__link">Meghrong</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="col l-4 m-6 s-12">
+                                    <h3 class="footer-right__heading">Contact Us</h3>
+                                    <h4 class="footer-right__address">76/A, Green Lane, Dhanmondi, NYC</h4>
+                                    <h2 class="footer-right__phone"><a href="" class="footer-right__phone-link">+10 (78)
+                                            738-9083</a></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p class="footer-copyright">Copyright &copy;2021 All rights reserved | This template is made with <i
+                            class="footer-copyright__icon fa fa-heart" aria-hidden="true"></i> by <span
+                            class="footer-right__dev"><a href="" class="footer-right__dev-link">DuongPham</a> </span>
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./assets/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var owl = $('#instagram .owl-carousel');
+            owl.owlCarousel({
+                loop: true,
+                dots: false,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                responsive: {
+                    0: {
+                        items: 2
+                    },
+                    740: {
+                        items: 4
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

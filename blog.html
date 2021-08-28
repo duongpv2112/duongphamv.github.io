@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cakes - Template</title>
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+
+
+<body>
+    <div class="app">
+        <input type="checkbox" hidden class="show-modal__input" id="modal-video">
+
+        <!-- Header -->
+        <header class="navbar">
+            <div class="navbar-container">
+                <div class="navbar-left">
+                    <div class="navbar-left__logo">
+                        <img src="./assets/img/logo.png" alt="Logo Cake" class="navbar-left__logo-img">
+                    </div>
+
+                    <div class="navbar-left__direction">
+                        <ul class="navbar-list">
+                            <li class="navbar-list__item">
+                                <a href="/" class="navbar-list__item-link">Home</a>
+                            </li>
+                            <li class="navbar-list__item">
+                                <a href="/product.html" class="navbar-list__item-link">Product</a>
+                            </li>
+                            <li class="navbar-list__item">
+                                <a href="/about.html" class="navbar-list__item-link">About</a>
+                            </li>
+                            <li class="navbar-list__item">
+                                <a class="navbar-list__item-link">Blog</a>
+                                <ul class="navbar-sublists">
+                                    <li class="navbar-sublists__item">
+                                        <a href="/blog.html" class="navbar-sublist__item-link">Blog</a>
+                                    </li>
+                                    <li class="navbar-sublists__item">
+                                        <a href="/blogdetail.html" class="navbar-sublist__item-link">Blog Details</a>
+                                    </li>
+                                    <li class="navbar-sublists__item">
+                                        <a href="/product.html" class="navbar-sublist__item-link">Element</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="navbar-list__item">
+                                <a href="/contact.html" class="navbar-list__item-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="navbar-mobile">
+                        <img src="./assets/img/logo.png" alt="Logo Cake" class="navbar-left__logo-img">
+
+                        <label for="navbar-mobile__input" class="navbar-mobile__icon">
+                            <i class="fas fa-bars" aria-hidden="true"></i>
+                        </label>
+
+                        <input type="checkbox" hidden class="navbar-mobile__input" id="navbar-mobile__input">
+
+                        <div class="navbar-mobile__overlay"></div>
+
+                        <div class="navbar-mobile__direction">
+                            <div class="navbar-mobile__direction-header">
+                                <img src="./assets/img/logo.png" alt="Logo Cake" class="navbar-left__logo-img">
+                                <label for="navbar-mobile__input" class="navbar-mobile__icon">
+                                    <i class="fa fa-times" aria-hidden="true"></i>
+                                </label>
+                            </div>
+
+                            <ul class="navbar-mobile__list">
+                                <li class="navbar-mobile__item">
+                                    <a href="/" class="navbar-mobile__item-link">
+                                        <i class="navbar-mobile__item-icon fas fa-home" aria-hidden="true"></i>
+                                        Home
+                                    </a>
+                                </li>
+                                <li class="navbar-mobile__item">
+                                    <a href="/product.html" class="navbar-mobile__item-link">
+                                        <i class="navbar-mobile__item-icon fas fa-birthday-cake"></i>
+                                        Product
+                                    </a>
+                                </li>
+                                <li class="navbar-mobile__item">
+                                    <a href="/about.html" class="navbar-mobile__item-link">
+                                        <i class="navbar-mobile__item-icon fas fa-users" aria-hidden="true"></i>
+                                        About
+                                    </a>
+                                </li>
+                                <li class="navbar-mobile__item">
+                                    <a class="navbar-mobile__item-link">
+                                        <i class="navbar-mobile__item-icon fab fa-blogger"></i>
+                                        Blog &nbsp;
+                                        <i class="fas fa-sort-down"></i>
+                                    </a>
+                                    <ul class="navbar-mobile__sublists">
+                                        <li class=navbar-mobile__subitem">
+                                            <a href="/blog.html" class="navbar-mobile__subitem-link">Blog</a>
+                                        </li>
+                                        <li class="navbar-mobile__subitem">
+                                            <a href="/blogdetail.html" class="navbar-mobile__subitem-link">Blog
+                                                Details</a>
+                                        </li>
+                                        <li class="navbar-mobile__subitem">
+                                            <a href="/product.html" class="navbar-mobile__subitem-link">Element</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="navbar-mobile__item">
+                                    <a href="/contact.html" class="navbar-mobile__item-link">
+                                        <i class="navbar-mobile__item-icon fas fa-address-card" aria-hidden="true"></i>
+                                        Contact
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="navbar-right">
+                    <span class="navbar-phone">
+                        <a href="" class="navbar-phone__link">
+                            <i class="navbar-phone__icon fas fa-phone-alt"></i>
+                            +10 (56) 745 3095
+                        </a>
+                    </span>
+                    <button class="btn btn-buy">Order Online</button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Slider -->
+        <div class="slider-page">
+            <div class="slider-container">
+                <div class="slider-sologan">
+                    <div class="sologan-container">
+                        <h1 class="sologan-animation">Blog</h1>
+                        <h1 class="sologan-heading">
+                            Blog
+                        </h1>
+                    </div>
+                </div>
+                <div class="sub-slider">
+                    <img src="./assets/img/position.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- Content -->
+        <div class="content">
+
+            <!-- List Blog -->
+            <div class="blog">
+                <div class="grid wide">
+                    <div class="row blog-container">
+                        <div class="col l-8 m-12 s-12 blog-left">
+                            <div class="row">
+                                <div class="col l-12 m-12 s-12 blog-item">
+                                    <div class="blog-top">
+                                        <img src="./assets/img/blog/blog1.png" alt="" class="blog-img">
+                                        <div class="blog-date">
+                                            <span class="blog-date__day">15</span>
+                                            <span class="blog-date__month">Jan</span>
+                                        </div>
+                                    </div>
+                                    <div class="blog-bottom">
+                                        <h2 class="blog-heading">
+                                            <a href="/blogdetail.html" class="blog-link">Google inks pact for new
+                                                35-storey
+                                                office</a>
+                                        </h2>
+                                        <p class="blog-content blog-content--mobile mb-30">
+                                            That dominion stars lights dominion divide years for fourth
+                                            have don't stars is that he earth it first without heaven in place seed it
+                                            second morning saying.
+                                        </p>
+                                        <div class="blog-author-total">
+                                            <span class="blog-author">
+                                                <i class="blog-icon fa fa-user" aria-hidden="true"></i>
+                                                Admin
+                                            </span>
+                                            <span>|</span>
+                                            <span class="blog-total-comment">
+                                                <i class="blog-icon fa fa-comments" aria-hidden="true"></i>
+                                                03 Comments
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col l-12 m-12 s-12 blog-item">
+                                    <div class="blog-top">
+                                        <img src="./assets/img/blog/blog2.png" alt="" class="blog-img">
+                                        <div class="blog-date">
+                                            <span class="blog-date__day">15</span>
+                                            <span class="blog-date__month">Jan</span>
+                                        </div>
+                                    </div>
+                                    <div class="blog-bottom">
+                                        <h2 class="blog-heading">
+                                            <a href="/blogdetail.html" class="blog-link">Google inks pact for new
+                                                35-storey
+                                                office</a>
+                                        </h2>
+                                        <p class="blog-content blog-content--mobile mb-30">
+                                            That dominion stars lights dominion divide years for fourth
+                                            have don't stars is that he earth it first without heaven in place seed it
+                                            second morning saying.
+                                        </p>
+                                        <div class="blog-author-comment">
+                                            <span class="blog-author">
+                                                <i class="blog-icon fa fa-user" aria-hidden="true"></i>
+                                                Admin
+                                            </span>
+                                            <span>|</span>
+                                            <span class="blog-comment">
+                                                <i class="blog-icon fa fa-comments" aria-hidden="true"></i>
+                                                03 Comments
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col l-12 m-12 s-12 blog-item">
+                                    <div class="blog-top">
+                                        <img src="./assets/img/blog/blog3.png" alt="" class="blog-img">
+                                        <div class="blog-date">
+                                            <span class="blog-date__day">15</span>
+                                            <span class="blog-date__month">Jan</span>
+                                        </div>
+                                    </div>
+                                    <div class="blog-bottom">
+                                        <h2 class="blog-heading">
+                                            <a href="/blogdetail.html" class="blog-link">Google inks pact for new
+                                                35-storey
+                                                office</a>
+                                        </h2>
+                                        <p class="blog-content blog-content--mobile mb-30">
+                                            That dominion stars lights dominion divide years for fourth
+                                            have don't stars is that he earth it first without heaven in place seed it
+                                            second morning saying.
+                                        </p>
+                                        <div class="blog-author-comment">
+                                            <span class="blog-author">
+                                                <i class="blog-icon fa fa-user" aria-hidden="true"></i>
+                                                Admin
+                                            </span>
+                                            <span>|</span>
+                                            <span class="blog-comment">
+                                                <i class="blog-icon fa fa-comments" aria-hidden="true"></i>
+                                                03 Comments
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col l-12 m-12 s-12 blog-item">
+                                    <div class="blog-top">
+                                        <img src="./assets/img/blog/blog4.png" alt="" class="blog-img">
+                                        <div class="blog-date">
+                                            <span class="blog-date__day">15</span>
+                                            <span class="blog-date__month">Jan</span>
+                                        </div>
+                                    </div>
+                                    <div class="blog-bottom">
+                                        <h2 class="blog-heading">
+                                            <a href="/blogdetail.html" class="blog-link">Google inks pact for new
+                                                35-storey
+                                                office</a>
+                                        </h2>
+                                        <p class="blog-content blog-content--mobile mb-30">
+                                            That dominion stars lights dominion divide years for fourth
+                                            have don't stars is that he earth it first without heaven in place seed it
+                                            second morning saying.
+                                        </p>
+                                        <div class="blog-author-comment">
+                                            <span class="blog-author">
+                                                <i class="blog-icon fa fa-user" aria-hidden="true"></i>
+                                                Admin
+                                            </span>
+                                            <span>|</span>
+                                            <span class="blog-comment">
+                                                <i class="blog-icon fa fa-comments" aria-hidden="true"></i>
+                                                03 Comments
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col l-12 m-12 s-12 blog-item">
+                                    <div class="blog-top">
+                                        <img src="./assets/img/blog/blog5.png" alt="" class="blog-img">
+                                        <div class="blog-date">
+                                            <span class="blog-date__day">15</span>
+                                            <span class="blog-date__month">Jan</span>
+                                        </div>
+                                    </div>
+                                    <div class="blog-bottom">
+                                        <h2 class="blog-heading">
+                                            <a href="/blogdetail.html" class="blog-link">Google inks pact for new
+                                                35-storey
+                                                office</a>
+                                        </h2>
+                                        <p class="blog-content blog-content--mobile mb-30">
+                                            That dominion stars lights dominion divide years for fourth
+                                            have don't stars is that he earth it first without heaven in place seed it
+                                            second morning saying.
+                                        </p>
+                                        <div class="blog-author-comment">
+                                            <span class="blog-author">
+                                                <i class="blog-icon fa fa-user" aria-hidden="true"></i>
+                                                Admin
+                                            </span>
+                                            <span>|</span>
+                                            <span class="blog-comment">
+                                                <i class="blog-icon fa fa-comments" aria-hidden="true"></i>
+                                                03 Comments
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <ul class="pagination">
+                                <li class="pagination-item pagination-item--disabled">
+                                    <a href="" class="pagination-item__link">
+                                        <i class="pagination-item__icon fa fa-angle-left" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li class="pagination-item pagination-item--active">
+                                    <a href="" class="pagination-item__link">1</a>
+                                </li>
+                                <li class="pagination-item">
+                                    <a href="" class="pagination-item__link">2</a>
+                                </li>
+                                <li class="pagination-item">
+                                    <a href="" class="pagination-item__link">
+                                        <i class="pagination-item__icon fa fa-angle-right" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col l-4 m-12 s-12 blog-right">
+                            <div class="blog-search p-30 mb-30 bg-blog">
+                                <div class="blog-form">
+                                    <div class="blog-form__input">
+                                        <input type="text" class="blog-input border-primary"
+                                            placeholder="Search Keyword">
+                                        <button class="blog-search__button">
+                                            <i class="blog-search__button-icon fas fa-search"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="blog-category p-30 mb-30 bg-blog">
+                                <h4 class="blog-title">Category</h4>
+                                <ul class="blog-category__list">
+                                    <li class="blog-category__item">
+                                        <a href="" class="blog-category__link">
+                                            Restaurant food (37)
+                                        </a>
+                                    </li>
+                                    <li class="blog-category__item">
+                                        <a href="" class="blog-category__link">
+                                            Travel news (10)
+                                        </a>
+                                    </li>
+                                    <li class="blog-category__item">
+                                        <a href="" class="blog-category__link">
+                                            Morden technology (03)
+                                        </a>
+                                    </li>
+                                    <li class="blog-category__item">
+                                        <a href="" class="blog-category__link">
+                                            Product (11)
+                                        </a>
+                                    </li>
+                                    <li class="blog-category__item">
+                                        <a href="" class="blog-category__link">
+                                            Inspiration (21)
+                                        </a>
+                                    </li>
+                                    <li class="blog-category__item">
+                                        <a href="" class="blog-category__link">
+                                            Health Care (09)
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="blog-recent-post p-30 mb-30 bg-blog">
+                                <h4 class="blog-title">Recent Post</h4>
+                                <div class="blog-post__list">
+                                    <div class="blog-post__item">
+                                        <img src="./assets/img/recent/post1.png" alt="" class="blog-post__img">
+                                        <div class="blog-post__content">
+                                            <span class="blog-post__title">
+                                                <a href="#" class="blog-post__link">
+                                                    From life is your fish under the green lake
+                                                </a>
+                                            </span>
+                                            <span class="blog-post__date">August 26, 2021</span>
+                                        </div>
+                                    </div>
+                                    <div class="blog-post__item">
+                                        <img src="./assets/img/recent/post2.png" alt="" class="blog-post__img">
+                                        <div class="blog-post__content">
+                                            <span class="blog-post__title">
+                                                <a href="#" class="blog-post__link">
+                                                    The Amazing Hubble
+                                                </a>
+                                            </span>
+                                            <span class="blog-post__date">02 Hours ago</span>
+                                        </div>
+                                    </div>
+                                    <div class="blog-post__item">
+                                        <img src="./assets/img/recent/post3.png" alt="" class="blog-post__img">
+                                        <div class="blog-post__content">
+                                            <span class="blog-post__title">
+                                                <a href="#" class="blog-post__link">
+                                                    Astronomy Or Astrology
+                                                </a>
+                                            </span>
+                                            <span class="blog-post__date">03 Hours ago</span>
+                                        </div>
+                                    </div>
+                                    <div class="blog-post__item">
+                                        <img src="./assets/img/recent/post4.png" alt="" class="blog-post__img">
+                                        <div class="blog-post__content">
+                                            <span class="blog-post__title">
+                                                <a href="#" class="blog-post__link">
+                                                    Asteroids telescope
+                                                </a>
+                                            </span>
+                                            <span class="blog-post__date">01 Hours ago</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="blog-tag-clouds p-30 mb-30 bg-blog">
+                                <h4 class="blog-title">Tag Clouds</h4>
+                                <ul class="blog-tag__list">
+                                    <li class="blog-tag__item">
+                                        <a href="" class="blog-tag__link">project</a>
+                                    </li>
+                                    <li class="blog-tag__item">
+                                        <a href="" class="blog-tag__link">love</a>
+                                    </li>
+                                    <li class="blog-tag__item">
+                                        <a href="" class="blog-tag__link">technology</a>
+                                    </li>
+                                    <li class="blog-tag__item">
+                                        <a href="" class="blog-tag__link">travel</a>
+                                    </li>
+                                    <li class="blog-tag__item">
+                                        <a href="" class="blog-tag__link">restaurant</a>
+                                    </li>
+                                    <li class="blog-tag__item">
+                                        <a href="" class="blog-tag__link">life style</a>
+                                    </li>
+                                    <li class="blog-tag__item">
+                                        <a href="" class="blog-tag__link">design</a>
+                                    </li>
+                                    <li class="blog-tag__item">
+                                        <a href="" class="blog-tag__link">illustration</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="blog-instagram-feeds p-30 mb-30 bg-blog">
+                                <h4 class="blog-title">Instagram Feeds</h4>
+                                <div class="row">
+                                    <div class="col m-2 l-4 s-4 blog-feed__item">
+                                        <img src="./assets/img/feeds/feed1.png" alt="" class="blog-feed__img">
+                                    </div>
+                                    <div class="col m-2 l-4 s-4 blog-feed__item">
+                                        <img src="./assets/img/feeds/feed2.png" alt="" class="blog-feed__img">
+                                    </div>
+                                    <div class="col m-2 l-4 s-4 blog-feed__item">
+                                        <img src="./assets/img/feeds/feed3.png" alt="" class="blog-feed__img">
+                                    </div>
+                                    <div class="col m-2 l-4 s-4 blog-feed__item">
+                                        <img src="./assets/img/feeds/feed4.png" alt="" class="blog-feed__img">
+                                    </div>
+                                    <div class="col m-2 l-4 s-4 blog-feed__item">
+                                        <img src="./assets/img/feeds/feed5.png" alt="" class="blog-feed__img">
+                                    </div>
+                                    <div class="col m-2 l-4 s-4 blog-feed__item">
+                                        <img src="./assets/img/feeds/feed6.png" alt="" class="blog-feed__img">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="blog-newsletter p-30 mb-30 bg-blog">
+                                <h4 class="blog-title">Newsletter</h4>
+                                <div class="blog-form">
+                                    <input type="text" class="blog-input" placeholder="Enter email">
+                                    <button class="blog-button mt-10">
+                                        SUBSCRIBE
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="grid wide">
+                <div class="footer-top">
+                    <div class="row row-mobile">
+                        <div class="col col-mobile l-4 m-12 s-12 footer-left">
+                            <img src="./assets/img/logo-new.png" alt="" class="footer-left__img">
+                            <p class="footer-left__desc">
+                                Land behold it created good saw after she'd Our set living. Signs midst dominion
+                                creepeth
+                                morning laboris nisi ufsit aliquip.
+                            </p>
+                            <div class="footer-left__social">
+                                <span class="footer-left__social-icon ">
+                                    <i class="fab fa-twitter-square" aria-hidden="true"></i>
+                                </span>
+                                <span class="footer-left__social-icon ">
+                                    <i class="fab fa-facebook-square" aria-hidden="true"></i>
+                                </span>
+                                <span class="footer-left__social-icon ">
+                                    <i class="fab fa-linkedin" aria-hidden="true"></i>
+                                </span>
+                                <span class="footer-left__social-icon ">
+                                    <i class="fab fa-pinterest-square" aria-hidden="true"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col col-mobile l-8 m-12 s-12 footer-right">
+                            <div class="row">
+                                <div class="col l-4 m-3 s-12">
+                                    <h3 class="footer-right__heading">Quick Links</h3>
+                                    <ul class="footer-list">
+                                        <li class="footer-item">
+                                            <a href="" class="footer-item__link">Home</a>
+                                        </li>
+                                        <li class="footer-item">
+                                            <a href="" class="footer-item__link">About</a>
+                                        </li>
+                                        <li class="footer-item">
+                                            <a href="" class="footer-item__link">Services</a>
+                                        </li>
+                                        <li class="footer-item">
+                                            <a href="" class="footer-item__link">Blog</a>
+                                        </li>
+                                        <li class="footer-item">
+                                            <a href="" class="footer-item__link">Contact</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="col l-4 m-3 s-12">
+                                    <h3 class="footer-right__heading">Cakes</h3>
+                                    <ul class="footer-list">
+                                        <li class="footer-item">
+                                            <a href="" class="footer-item__link">Blackforest</a>
+                                        </li>
+                                        <li class="footer-item">
+                                            <a href="" class="footer-item__link">Bodhubon</a>
+                                        </li>
+                                        <li class="footer-item">
+                                            <a href="" class="footer-item__link">Rongdhonu</a>
+                                        </li>
+                                        <li class="footer-item">
+                                            <a href="" class="footer-item__link">Meghrong</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="col l-4 m-6 s-12">
+                                    <h3 class="footer-right__heading">Contact Us</h3>
+                                    <h4 class="footer-right__address">76/A, Green Lane, Dhanmondi, NYC</h4>
+                                    <h2 class="footer-right__phone"><a href="" class="footer-right__phone-link">+10 (78)
+                                            738-9083</a></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p class="footer-copyright">Copyright &copy;2021 All rights reserved | This template is made with <i
+                            class="footer-copyright__icon fa fa-heart" aria-hidden="true"></i> by <span
+                            class="footer-right__dev"><a href="" class="footer-right__dev-link">DuongPham</a> </span>
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
