@@ -571,6 +571,10 @@
                 </div>
             </div>
         </div>
+
+        <div>
+            <button id="clickButton">CLick GTM</button>
+        </div>
     </div>
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -645,7 +649,14 @@
                         }
                     }
                 ]
-            })
+            });
+
+            $("#clickButton").click(() => {
+                window.dataLayer.push({
+                    event: 'Mouse Click', // Tên sự kiện bạn đã đặt trong GTM
+                    buttonName: 'Đăng ký ngay' // Thông tin thêm (tùy chọn)
+                });
+            });
         });
     </script>
 </body>
